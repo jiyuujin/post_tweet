@@ -22,8 +22,6 @@ params = {
     # "media[]": open("image.png", "rb")
 }
 
-TweetList = []
-
 twitter = OAuth1Session(
     comsumer_api_key,
     comsumer_api_secret_key,
